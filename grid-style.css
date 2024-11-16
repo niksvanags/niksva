@@ -1,0 +1,13 @@
+#grid-container {
+    display: grid; 
+    grid-template-columns:auto auto ;
+    grid-template-rows: 20cm 20cm;
+
+}
+
+#item1 {
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
